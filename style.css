@@ -1,0 +1,41 @@
+* {
+  border-style: solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* reverse these */
+ul li {
+background: red;
+}
+
+ul > li {
+background: blue;
+}
+
+p, div {
+  color: purple;
+  border-color: black;
+}
+
+.coolClass {
+  color: yellow;
+}
+
+/* add after! */
+li.coolClass {
+  color: black !important;
+}
+
+li.coolClass {
+  color: white;
+}
+
+/* stretch: siblings */
+li + li {
+  color: pink;
+}
+
+h1 ~ p{
+  background-color: green;
+}
